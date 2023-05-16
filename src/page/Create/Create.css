@@ -1,0 +1,33 @@
+.create-item{
+    color: #fff;
+    background: #343444;
+    padding: 2px 0 5px 15px;
+}
+.form-input{
+    margin-top: 20px;
+}
+.form-input input{
+    width: 100%;
+    border: 1px solid  hsla(0,0%,86.7%,.171);
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 25px;
+    background: transparent;
+    color: #fff;
+    margin-top: 5px;
+}
+#uploadfile{
+    padding: 40px 25px;
+}
+#button-create{
+    padding: 10px 25px;
+    margin: auto;
+    border-radius: 15px;
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );
+    margin-bottom: 30px;
+    color: #fff;
+    align-items: center;
+}
+#button-create:hover{
+    background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );;
+}

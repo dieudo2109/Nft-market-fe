@@ -1,0 +1,10 @@
+.title-item{
+    background: url(https://html.dreamitsolution.net/nftpro/assets/images/slider/bread-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 150px;
+}
+.title-item h2{
+    color: #fff;
+}

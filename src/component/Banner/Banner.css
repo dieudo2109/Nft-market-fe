@@ -1,0 +1,45 @@
+.bannerr{
+   margin-top: 60px;
+}
+.banner-content{
+    margin-top: 120px;
+    animation: fadeInRight 1.7s ease;
+}
+.banner-content h2 span{
+    background: linear-gradient(-45deg,#e250e5,#4b50e6,#e250e5,#4b50e6);
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    margin-left: 7px!important;
+    display: inline-block;
+    visibility: visible;
+    animation: fadeInRight 1.7s ease;
+}
+.explore_btn{
+    padding: 9px 28px;
+    border-radius: 50px;
+    border: 1px solid #ec11cf;
+    font-size: 0.9rem;
+    background: transparent;
+    align-items: center;
+    animation: fadeInRight 2s ease;
+}
+.explore_btn:hover{
+   color: blue !important;
+}
+.banner-img{
+   height: 80vh;
+   animation: fadeInUp 2.5s ease ;
+   animation-fill-mode: forwards;
+}
+@media only screen and (max-width: 768px) {
+    .banner-content{
+        margin-top: 0;
+    }
+    .banner-btn{
+       display: flex;
+       justify-content: center;
+        margin-bottom: 30px;
+    }
+
+}

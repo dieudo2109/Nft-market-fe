@@ -1,0 +1,54 @@
+.footer-main{
+    background: #000;
+    padding: 50px;
+}
+.wraps{
+    padding-left: 50px;
+}
+.logo h2{
+    display: flex;
+    background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+  }
+.compony-icon i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: #2A273E;
+    text-align: center;
+    margin-left: 10px;
+}
+.compony-icon i:hover{
+    background: #e250e5;
+}
+.h4{
+    color: #fff;
+}
+.footer-menu{
+    color: #fff;
+    font-size: 18px;
+}
+.footer-menu li{
+    padding: 7px;
+    opacity: 0.7;
+}
+.footer-menu a:hover{
+    color: #e250e5;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width: 768px) {
+    .footer-content{
+        text-align: center;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

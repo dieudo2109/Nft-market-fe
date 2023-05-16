@@ -1,0 +1,118 @@
+.containerr{
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+}
+.logo h2{
+  display: flex;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+.header-menu {
+  line-height: 80px;
+}
+.menu-item{
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+}
+.search input{
+  background: transparent;
+  height: 44px;
+  border: 1px solid #716F7E;
+  border-radius: 30px;
+  padding: 0px 32px 0;
+  color: #e250e5;
+}
+.search {
+  position: relative;
+}
+.search i{
+  position: absolute;
+  right: 13px;
+}
+.search ul{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  padding: 0;
+  list-style-type: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  display: inline-block;
+  
+}
+.search a:hover{
+  color: #e250e5;
+}
+.search span{
+ display: inline-block;
+ margin-left: 25px;
+}
+.search ul li{
+  border-bottom: 1px solid #716F7E;
+}
+.active{
+  color:  #e250e5 !important;
+}
+.border_text{
+  background: #14141f;
+  box-shadow: 2px 2px 4px -2px #e250e5;
+}
+.mobile-menu {
+  color: #fff;
+  font-size: 1.3rem;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .active_menu{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  .header-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#14141f83, #14141f83);
+    z-index: 222222;
+  }
+  .nav-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #343444;
+    z-index: 333333;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .search input{
+    height: 40px;
+    padding: 4px 25px;
+    width: 105px;
+  }
+  .search ul{
+    width: 200%;
+  }
+}

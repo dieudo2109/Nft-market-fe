@@ -1,0 +1,33 @@
+.contact-form input,textarea{
+    width: 100%;
+    padding: 7px 25px;
+    color: #fff;
+    background: transparent;
+    border:  1px solid hsla(0,0%,86.7%,.171);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.button-form{
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );
+    width: 30%;
+    margin: auto;
+    color: #fff;
+}
+.button-form:hover{
+    background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+}
+.contact-img{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .contact-img{
+        width: 100%;
+    }
+    .button-form{
+        width: 50%;
+    }
+}

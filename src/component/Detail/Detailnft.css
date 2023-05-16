@@ -1,0 +1,75 @@
+.detail-nft{
+    margin-top: 40px;
+    color: #fff;
+}
+.img-detail{
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+}
+.item-icon{
+    display: flex;
+    flex-wrap: nowrap;
+   cursor: pointer;
+}
+.like-detail{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #2A273E;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 20px;
+}
+.like-detail:hover{
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );
+}
+.author-content{
+    background: #2A273E;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.author-content span{
+    opacity: 0.6;
+}
+.overview{
+    font-size: 18px;
+}
+.price-detail{
+    background: #2A273E;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    color: aqua;
+    cursor: pointer;
+}
+.price-detail:hover{
+    color: #B725FF;
+}
+.button-detail{
+    display: flex;
+    justify-content: center;
+}
+.place-detail{
+    padding: 15px 120px;
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.place-detail:hover{
+    background:  linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+}
+@media only screen and (max-width: 768px) {
+    .author-content{
+        margin-bottom: 20px;
+    }
+}

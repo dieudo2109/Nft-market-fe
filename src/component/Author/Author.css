@@ -1,0 +1,21 @@
+.seller-img{
+ width: 40%;
+ object-fit: cover;
+ margin-left: 50px;
+}
+.author-infos{
+    background: #343444;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    padding: 16px;
+}
+.author-infos:hover{
+    color: #B725FF;
+    box-shadow: 2px 2px 15px  #B725FF inset;
+}
+@media only screen and (max-width: 768px) {
+    .seller-img{
+      margin-left: 100px;
+    }
+}

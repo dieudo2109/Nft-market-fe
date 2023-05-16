@@ -1,0 +1,114 @@
+.auction-title h1{
+    position: relative;
+    padding-left: 54px;
+}
+h1::before{
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #B725ff;
+    left: 10px;
+    top: 17px;
+    z-index: 1;
+}
+h1::after{
+    position: absolute;
+    content: "";
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #441669;
+    top: 7px;
+    left: 0;
+    z-index: -1;
+}
+.explore-button{
+   color: #fff;
+   text-align: right ;
+}
+.fadeInLeft{
+    animation: fadeInLeft 2s ease;
+}
+.wrapp{
+    margin-left: 20px;
+}
+.img-nft{
+    width: 230px;
+    height: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.nft-item{
+    background:#343444;
+    border-radius: 10px;
+    
+}
+.nft-item:hover{
+    box-shadow: 2px 2px 15px #518EFF inset;
+}
+.img-nft{
+    position: relative;
+    z-index: 1;
+}
+.icon-heart{
+    position: absolute;
+    z-index: 10;
+    top:50px;
+    right: 40px;
+    border-radius: 30px;
+    padding: 3px 15px 3px 15px;
+    background: #2A273E;
+    color: #fff;
+}
+.icon-heart:hover{
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );
+}
+.icon-heart i,.icon-heart span{
+    display: inline-block;
+}
+.total{
+    flex-wrap: nowrap;
+}
+.author-img{
+    align-items: center;
+}
+.image-author{ 
+   width: 50px;
+   border-radius: 50%;
+}
+.author{
+    font-size: 18px;
+}
+.place,.total{
+    font-size: 15px;
+}
+
+.place-bid{
+    padding: 6px 15px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block
+    
+}
+.place-bid:hover{
+    background: linear-gradient(to right, #B725FF 28%, #518EFF 78% );;
+}
+.history{
+   flex-wrap: nowrap;
+   cursor: pointer;
+}
+.history span:hover{
+    color: #B725FF;
+}
+@media only screen and (max-width: 768px) {
+    .img-nft{
+        width: 90%;
+    }
+}

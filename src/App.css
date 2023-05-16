@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+*{
+  padding:0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #14141f !important;
+}
+h1,h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 55px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+  color: unset;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li{list-style: none;}
+img{  overflow: clip;}
+p{ font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 85%;
+    line-height: 35px;
+    max-width: 577px;
 }
-
-.App-link {
-  color: #61dafb;
+h4{
+  font-size: 16px;
+   position: relative;
+   z-index: 1;
+   background: linear-gradient( to right, #518EFF, #518EFF, 6%, #B725FF 10%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
+h4::before{
+  position: absolute;
+  content: "";
+  top:10px;
+  width: 75px;
+  left: 90px;
+  height: 2px;
+  background: linear-gradient(to right, #518EFF 35%, #B725FF 88% );
+}
+section{
+  padding: 60px 0px;
+}
+:root{
+  --color-main: linear-gradient( to right, #518EFF, #518EFF, 50%, #B725FF 75%);
+}
+html {
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+html:focus-within {
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+} 
+::-webkit-scrollbar {
+  width: 10px;
+  background: #343444;
+}
+a:hover{
+  color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+}
+button,img,input,a,span{display: block;}
+@keyframes fadeInUp{
   from {
-    transform: rotate(0deg);
+    transform: translate3d(0,30%,0);
   }
   to {
-    transform: rotate(360deg);
-  }
+    transform: none;
+  }}
+@keyframes fadeInRight{
+  from{
+    opacity: 0;
+    transform: translate3d(10%,0,0);
 }
+to {
+    opacity: 1;
+    transform: none;
+}}
+@keyframes fadeInLeft{
+0% {
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+100% {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}}
